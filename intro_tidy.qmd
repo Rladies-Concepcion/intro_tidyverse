@@ -1,0 +1,64 @@
+---
+title: "Introducción al Tidyverse"
+subtitle: "[R Ladies Chile](https://github.com/rladieschile)"
+author: "[Camila Molina](https://www.linkedin.com/in/camila-molina-fern%C3%A1ndez) & [Natalia Riquelme](https://github.com/nataliariquelme)"
+format: 
+  rladies-revealjs:
+    footer: "[R-Ladies](https://rladies.org/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/beatrizmilz/quarto-rladies-theme)."
+incremental: false
+embed-resources: true
+---
+
+## ¿Qué son los datos Tidy?
+
+Los datos Tidy (ordenados) tienen como mínimo las siguientes propiedades:
+
+-   Cada variable tiene su propia columna.
+-   Cada observación de esa variable debe estar en su propia fila.
+
+<img src="./images/tidy-data.png" style="height: 70%; width: 80%"/>
+
+## ¿Por qué necesitamos datos ordenados?
+
+::: columns
+::: {.column width="50%"}
+Se nos hará más sencillo:
+
+-   Manipular los datos y crear nuestros resúmenes.
+-   Unir bases de datos ordenados entre si.
+-   Visualizar nuestros datos.
+-   Modelar.
+:::
+
+::: {.column width="50%"}
+<img src="./images/data_cleaning.jpg" style="height: 150%; width: 100%"/>
+:::
+:::
+
+**A tener en cuenta**: Mucho del trabajo que hagamos al analizar nuestros datos se tratará de limpieza.
+
+## Tidyverse
+
+Tidyverse es una colección de paquetes disponibles en R y orientados a la manipulación, importación, exploración y visualización de datos. Se compone de varios paquetes, como:
+
+::: columns
+::: {.column width="50%"}
+-   readr
+-   dplyr
+-   ggplot2
+-   tibble
+-   tidyr
+-   purr
+-   stringr
+-   forcats
+:::
+
+::: {.column width="50%"}
+<img src="./images/tidyverse.jfif" style="height: 150%; width: 100%"/>
+:::
+:::
+
+## Ahora, manos a la obra:
+
+![https://posit.cloud/content/5960904](https://posit.cloud/content/5960904)
+
